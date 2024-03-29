@@ -1,0 +1,160 @@
+/* Browser Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+/* Global Styles */
+
+body {
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: normal;
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+  }
+
+a {
+    color: seashell;
+}
+
+h1, h2, h3, h4 {
+    padding: 10px;
+}
+
+h1 {
+    font-size: 33px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0 0 10px 0;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Header Section */
+
+header {
+    width: 100%;
+    z-index: 1;
+    padding: 8px 10px;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    position: fixed;
+    background-color: black;
+}
+
+header img {
+    max-height: 50px;
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+}
+
+nav a {
+    margin: 0 10px 0 0;
+}
+
+/* Main Section */
+
+main {
+    padding: 70px 0 0 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Mission Section */
+
+#mission {
+    min-height: 700px;
+    background-image: url("../img/img-mission-background.jpg");
+    margin: 0 0 20px 0;
+}
+
+#mission .banner {
+    margin: auto 0;
+    background-color: black;
+    width: 100%;
+}
+
+/* Store Section */
+
+#store {
+    margin: 0 0 20px 0;
+}
+
+.item {
+    margin: 0 0 10px 0;
+}
+
+.item img {
+    height: 200px;
+    margin: 10px;
+}
+
+.item p {
+    font-weight: bold;
+}
+
+/* Location Section */
+
+#locations {
+    background-image: url(../img/img-locations-background.jpg);
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#locations h2 {
+    margin: 0 0 5px 0;
+}
+
+.location {
+    padding: 10px;
+    margin: 0 20px;
+    background-color: black;
+    min-width:  280px;
+}
+
+/* Contact Section */
+
+#contact {
+    min-height: 200px;
+}
+
+/* Footer Section */
+ 
+footer {
+    text-align: left;
+    padding: 20px;
+}
+
